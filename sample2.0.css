@@ -1,0 +1,115 @@
+.card {
+    
+    box-shadow: 0 10px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: inline-block;
+    padding: 0 !important;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  
+  
+  .card:hover {
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+    
+  }
+  
+ 
+  .container {
+    margin-left: 20px;
+    text-align: justify;
+  }
+  
+  .accordion {
+    background-color: rgb(245, 66, 236);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 20px 28px;
+    width: 100%;
+    text-align: center;
+    font-size: 300px;
+    font-weight: 800;
+    outline: 3px black;
+    font-size: 15px;
+    transition: 0.4s;
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-top: 10px !important;
+    margin-bottom: 10px;
+
+  }
+  
+  .active, .accordion:hover {
+    background-color: rgb(178, 224, 224); 
+    box-shadow: 0px 10px 10px 0px rgb(0, 0, 0);
+  }
+  
+  .panel {
+    padding: 5px 18px;
+    display: none;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    border: black;
+  }
+
+  .responsive{
+      width: 100%;
+      height: 100%;
+  }
+
+  img:hover {
+    box-shadow: 0px 10px 10px 0px rgba(252, 4, 120, 0.5);
+    border: 2px black;
+  }
+
+  @media screen and (max-width: 650px) {
+    .card{
+      width: 100%; 
+      position: relative;
+    }
+  }
+
+  
+  #sb, #ub{
+      margin: 30px;
+      background-color:rgb(241, 236, 236)
+  }
+
+#all{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    position: relative;
+    background-color: rgb(66, 135, 245);
+    box-sizing: content-box;
+    padding: 20px;
+}
+
+.buynow{
+    margin: 10px;
+    margin-left: 30%;
+    border-radius: 10px;
+    background-color: rgb(232, 252, 8);
+    font-weight: 500;
+}
+
+a{
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px black;
+}
+
+.buynow:hover{
+    box-shadow: 0 5px 5px 0px black;
+}
+
+
+#body{
+  background-color: rgb(233, 233, 225);
+  padding-right: 20%;
+}
+
+#sub, #newb{
+  background-color: rgb(255, 255, 255);
+  margin-left: 90px;
+}

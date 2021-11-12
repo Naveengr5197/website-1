@@ -1,0 +1,164 @@
+#head{
+    color: black;
+    
+    border: 2px solid black;
+    margin: 10px;
+    margin-left:15%;
+    background-color: rgb(129, 125, 245);
+    text-align: center;
+    border-radius: 5px;
+    padding: 0 !important;
+    
+}
+
+.container-fluid{
+    margin:30px;
+    background-color: rgb(214, 214, 37);
+    border: rgb(201, 20, 20);
+    margin-bottom: 30px;
+}
+
+#nextpage{
+    margin-top: 10px;
+    color: honeydew;
+}
+
+body{
+    border:2px solid black;
+    
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 15px 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: 2px black;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: rgb(122, 126, 126); 
+  }
+  
+  .panel {
+    padding: 5px 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    border: black;
+  }
+
+  h2{
+      border:2px solid black;
+  }
+
+  .radio{
+      margin: 10px;
+      font-weight: bold;
+      
+  }
+
+  #gp{
+      margin-left: 8px;
+  }
+
+  #continue{
+    margin: 10px;
+    font-weight: 500;
+
+}
+
+
+
+
+#login-page{
+    margin: 10px;
+    background-color: rgb(203, 247, 200);
+    padding: 10px;
+    border: red;
+
+    
+}
+
+.radio>h5{
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+a:hover{
+        border: none;
+    background-color: rgb(196, 92, 92);
+    box-shadow: #444;
+}
+
+.payment-type{
+    background-color: blanchedalmond;
+    margin: 10px;
+    font-weight: 700;
+}
+
+.wrapper{
+    border: 2px black;
+}
+
+.custom-row{
+    margin: 1opx;
+}
+
+#login{
+    margin: 10px;
+    border-radius: 5px;
+    padding: 0 !important;
+    margin-left:30px;
+}
+
+#cancel{
+    margin: 10px;
+    border-radius: 5px;
+    padding: 0 !important;
+    margin-left: 30%;
+    
+}
+
+input[type=button],input[type=reset]{
+    display: inline-block;
+    border-radius: 5%;  
+}
+
+
+    @media (max-width: 600px) {
+        .container-fluid {
+           display: block;
+           float:right;
+           position: relative;
+        }
+        #login{
+            display: block;
+           float:right;
+        }
+    }
+
+    #uname{
+        margin: 10px;
+    }
+
+    #pwd{
+        margin:10px;
+    }
+
+    
+
+    @media screen and (max-width: 650px) {
+        .container-fluid{
+          width: 100%;
+          position: relative;
+        }
+      }
+
+      
